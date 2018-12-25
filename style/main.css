@@ -1,0 +1,311 @@
+.navbar-custom {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+    margin-bottom: 0px;
+}
+.navbar-custom {
+    background-color: #fff;
+    border-color: #e7e7e7;
+}
+.navbar-custom .navbar-header {
+    float: none;
+}
+.navbar-fixed-top.navbar-custom {
+    border-width: 0 0 0px;
+    z-index: 20;
+}
+.titlebar-container {
+    background-color: white;
+}
+.banner > .bannerphoto img {
+    width: 100%;
+    height: 280px;
+}
+.nav{
+    float: right;
+    margin-top: 26px;
+}
+.nav a {
+    color: white;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #777;
+}
+.page {
+    margin-top: -76px;
+    padding-bottom: 50px;
+    padding-top: 76px;
+}
+.greynav {
+    background-color: rgb(210, 72, 84);
+}
+.navbar-logo {
+    float: left;
+}
+
+.navbar-logo > img {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+}
+#maincontent {
+    background-color: #F2F2F2;
+}
+.formblock label {
+    display: block;
+    padding-left: 5px;
+}
+.formblock input {
+    border: RGB(74, 86, 94) solid 1px;
+    width: 97%;
+    padding: 10px;
+}
+.formblock input[type='submit'] {
+    width: auto;
+    font-weight: bold;
+    border: none;
+    background-color: #50585f;
+    color: white;
+    padding: 10px 25px;
+}
+.googleMapCanvas {
+    max-height: 250px;
+}
+.addresses {
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+.submission {
+    text-align: center;
+}
+.formblock textarea {
+    height: 215px;
+    width: 100%
+}
+.formblock .field {
+    margin-bottom: 20px;
+}
+.required {
+    font-weight: normal;
+    font-size: 12px;
+}
+.titlebar-arrow {
+    background-image: url("../img/triangle.png");
+    background-position: 50% top;
+    background-repeat: no-repeat;
+    height: 28px;
+    margin-bottom: 30px;
+}
+
+
+.bubble 
+{
+position: relative;
+display:inline-block;
+width: 100%;
+min-height:1.5em;
+padding: 20px;
+background: #FFFFFF;
+
+}
+
+.bubble:after 
+{
+content: "";
+position: absolute;
+bottom: -15px;
+left: 60%;
+border-style: solid;
+border-width: 15px 15px 0;
+border-color: #FFFFFF transparent;
+display: block;
+width: 0;
+z-index: 1;
+}
+
+.bubble:before 
+{
+content: "";
+position: absolute;
+bottom: -17px;
+left: calc(60% - 3px) ;
+border-style: solid;
+border-width: 18px 18px 0;
+border-color: #ffffff transparent;
+display: block;
+width: 0;
+z-index: 0;
+}
+
+.ballonrij{
+    
+}
+.ballonrij .col-md-6{
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+
+.nav .active span {
+    background-color: black;
+    height: 5px;
+    display: block;
+}
+.nav .active a {
+    padding-bottom: 10px;
+}
+.nav {
+    font-weight: bold;
+}
+h1 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body {
+    padding-top: 76px;
+}
+.banner {
+    margin-bottom: 45px;
+}
+.bannertext > div {
+    display: table;
+    width: 360px;
+}
+.bannertext > div > p {
+    display: table-cell;
+    vertical-align: middle;
+}
+.header-bg {
+    min-height: 869px;
+    background-color: #F2F2F2;
+    
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote {
+    color: rgb(97, 175, 136);
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20%;
+    text-align: center;
+}
+.voorstellen > div {
+    overflow: hidden;
+}
+.voorstellen > div > img {
+    max-width: none;
+}
+.collapsed-navbar-logo{
+    display: none;   
+    float: left;
+}
+
+@media (max-width: 992px) {
+    .bannertext > div {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .formblock textarea {
+        height: 302px;
+        width: 97%
+    }
+    .bannertext > div {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+}
+@media (min-width: 768px) {
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: 0px;
+    }
+    .bannertext .ccm-block-styles {
+        height: 280px;
+    }
+
+}
+@media (max-width: 767px) {
+    html,body { height:100% }
+    .quote {
+      font-size: 20px;
+    
+    }
+
+    .icon-bar{
+      background-color: rgb(57, 191, 144);
+    }
+    .bannertext {
+        margin-top: 20px;
+    }
+    .navbar-logo {
+        display: none;
+    }
+    .collapsed-navbar-logo{
+        display: block;   
+    }
+    .page {
+        margin-top: -50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    body {
+        padding-top: 50px;
+    }
+    .banner > .bannerphoto img {
+        width: 100%;
+        height: auto;
+        max-height: 280px;
+    }
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        margin-right: 15px;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 50%;
+    }
+    .header-bg {  
+        width: 100%;
+        background-attachment: scroll;
+
+
+    }    
+    .voorstellen > div > img {
+        max-width: 100%;
+    }    
+
+}
+
+@media (max-width: 400px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+ 
+#REFERENTIES-slide .quote{
+    padding-top: 400px;
+}
+.praktijk .info {
+  margin-bottom: 40px;
+}
+.col-md-6 > img {
+  max-width: 100%;
+  height: auto;
+}
+.col-md-3 > img {
+  max-width: 100%;
+  height: auto;
+}
