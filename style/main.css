@@ -1,3 +1,6 @@
+#conversion_orientatie {
+    font-weight: bold;
+}
 .navbar-custom {
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
@@ -178,9 +181,7 @@ body {
     vertical-align: middle;
 }
 .header-bg {
-    min-height: 869px;
     background-color: #F2F2F2;
-    
     background-attachment: fixed;
     background-clip: border-box;
     background-origin: padding-box;
@@ -291,8 +292,10 @@ body {
 @media (max-width: 400px) {
 
 }
-@media (min-width: 1200px) {
-
+@media (max-width: 991px) {
+    .praktijk .row.info {
+        text-align: center;
+    }
 }
  
 #REFERENTIES-slide .quote{
@@ -308,4 +311,23 @@ body {
 .col-md-3 > img {
   max-width: 100%;
   height: auto;
+}
+
+
+
+
+#in-de-praktijk-slide .quote {
+    color: white;
+}
+#in-de-praktijk-slide .background-mask {
+    background-color: rgba(0, 0, 0, .6);
+}
+#lucia-slide .background-mask {
+    background-color: rgba(255, 255, 255, .4);
+}
+#passend-onderwijs-slide .background-mask {
+    background-color: rgba(0, 0, 0, .6);
+}
+#referenties-slide .background-mask {
+    background-color: rgba(0, 0, 0, .6);
 }
